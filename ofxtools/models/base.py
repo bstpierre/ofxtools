@@ -77,6 +77,8 @@ class Aggregate(object):
         kwargs = {}
         if issubclass(SubClass, List):
             if issubclass(SubClass, TranList):
+                if len(elem) == 0:
+                    return None
                 dtstart, dtend = elem[:2]
                 try:
                     assert dtstart.tag == 'DTSTART'
