@@ -1,3 +1,10 @@
+init:
+	pip install pipenv --upgrade
+	pipenv install --dev --skip-lock
+
+ci:
+	TZ="US/Central" pipenv run nosetests -dsv --with-yanc --with-coverage --cover-package ofxtools tests/*.py
+
 test:
 	coverage erase
 	nosetests -dsv --with-yanc --with-coverage --cover-package ofxtools tests/*.py

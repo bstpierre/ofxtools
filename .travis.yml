@@ -2,5 +2,7 @@ language: python
 python:
   - "3.6"
 
-install: pip install pipenv; pipenv install --dev
-script: pipenv run nosetests -dsv --with-yanc --with-coverage --cover-package ofxtools
+install: 
+  - make
+script:
+  - make ci

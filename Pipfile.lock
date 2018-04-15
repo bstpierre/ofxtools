@@ -31,7 +31,7 @@
     "default": {
         "5d27562": {
             "editable": true,
-            "path": "/home/brian/projects/ofxtools"
+            "path": "."
         },
         "certifi": {
             "hashes": [
@@ -72,7 +72,7 @@
     "develop": {
         "5d27562": {
             "editable": true,
-            "path": "/home/brian/projects/ofxtools"
+            "path": "."
         },
         "astroid": {
             "hashes": [

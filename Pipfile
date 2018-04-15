@@ -21,7 +21,7 @@ sqlalchemy = "*"
 
 [packages]
 
-"5d27562" = {editable = true, path = "/home/brian/projects/ofxtools"}
+"5d27562" = {editable = true, path = "."}
 requests = "*"
 
 [requires]
