@@ -1,9 +1,6 @@
 language: python
 python:
-  - "2.7"
-  - "3.4"
-  - "3.5"
   - "3.6"
 
-install: pip install -r requirements-development.txt
-script: nosetests -dsv --with-yanc --with-coverage --cover-package ofxtools
+install: pip install pipenv; pipenv install --dev
+script: pipenv run nosetests -dsv --with-yanc --with-coverage --cover-package ofxtools

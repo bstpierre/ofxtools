@@ -1,0 +1,28 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+name = "pypi"
+verify_ssl = true
+
+
+[dev-packages]
+
+"5d27562" = {editable = true, path = "."}
+requests = "*"
+mock = "*"
+nose = "*"
+yanc = "*"
+ipdb = "*"
+ipdbplugin = "*"
+coverage = "*"
+pylint = "*"
+sqlalchemy = "*"
+
+
+[packages]
+
+"5d27562" = {editable = true, path = "/home/brian/projects/ofxtools"}
+requests = "*"
+
+[requires]
+python_version = "3.6"

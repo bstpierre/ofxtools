@@ -6,6 +6,7 @@
 *~
 .*.sw?
 .coverage
+.noseids
 .directory
 .env
 .idea/*
